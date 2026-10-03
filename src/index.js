@@ -1,4 +1,4 @@
-const CUSTOM_DOMAIN = process.env.CUSTOM_DOMAIN;
+const CUSTOM_DOMAIN = 'xhost.tw';
 
 addEventListener("fetch", (event) => {
   event.passThroughOnException();
