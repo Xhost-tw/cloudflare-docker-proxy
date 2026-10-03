@@ -1,6 +1,6 @@
 name = "cloudflare-docker-proxy"
 compatibility_date = "2026-10-01"
-main = "dist/index.js"
+main = "dist/main.js"
 
 [assets]
 directory = "./dist"
