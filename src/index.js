@@ -1,3 +1,5 @@
+const CUSTOM_DOMAIN = process.env.CUSTOM_DOMAIN;
+
 addEventListener("fetch", (event) => {
   event.passThroughOnException();
   event.respondWith(handleRequest(event.request));
