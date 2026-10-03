@@ -1,4 +1,5 @@
 const CUSTOM_DOMAIN = 'xhost.tw';
+const MODE = 'production';
 
 addEventListener("fetch", (event) => {
   event.passThroughOnException();
